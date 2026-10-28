@@ -28,7 +28,7 @@ jobs:
         uses: actions/checkout@v4
         with:
           repository: AxelTidehorn/negative-studio
-          ref: feat/filmlabb-v2-prototype
+          ref: 37913216cdfc8f04ee9a7fe104c87aeb3ab17b30 # PR #38: robust automatic tone
           persist-credentials: false
       - uses: actions/setup-node@v4
         with:
